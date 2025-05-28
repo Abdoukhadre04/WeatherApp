@@ -1,16 +1,10 @@
 # weather_mockon
 
-A new Flutter project.
+WeatherApp
+Weather app using Flutter & weather api
 
-## Getting Started
+L'application Weather Appi renvoie les donnees meteo de n'importe quelle ville via une recherche de la ville. Elle renvoies les donnees liees au vent, la vitesse ,la temperature du moment mais aussi la temperature des prochaines heures.
 
-This project is a starting point for a Flutter application.
+J'ai utilise un api weather : https://www.weatherapi.com/docs/ que j'ai implementer avec l'application afin d'avoir les donnees.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+J'ai utilise aussi des packages tels que shared_preference, hive pour stocker les donnes en local en mode offline.
